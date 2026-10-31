@@ -1,9 +1,9 @@
 Command:
-curl -sS -X POST http://127.0.0.1:5000/customer/login -H "Content-Type: application/json" -d '{"username":"coursera_user","password":"<password>"}' | jq .
+curl -sS -X POST http://127.0.0.1:5000/customer/login -H "Content-Type: application/json" -d '{"username":"coursera_user","password":"user1234"}' | jq .
 
 Output:
 {
   "message": "Login successful.",
   "username": "coursera_user",
-  "accessToken": "<accessToken>"
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNvdXJzZXJhX3VzZXIiLCJpYXQiOjE3OTM0NDQ2MTgsImV4cCI6MTc5MzQ0ODIxOH0.BA5dEgmkhaC07Kh5BZmQbfJKGHkX-Zu4DNQKhv41wHA"
 }

@@ -1,5 +1,5 @@
 Command:
-curl -sS -X PUT http://127.0.0.1:5000/customer/auth/review/1 -H "Authorization: Bearer <accessToken>" -H "Content-Type: application/json" -d '{"review":"Excellent book"}' | jq .
+curl -sS -X PUT http://127.0.0.1:5000/customer/auth/review/1 -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNvdXJzZXJhX3VzZXIiLCJpYXQiOjE3OTM0NDQ2MTgsImV4cCI6MTc5MzQ0ODIxOH0.BA5dEgmkhaC07Kh5BZmQbfJKGHkX-Zu4DNQKhv41wHA" -H "Content-Type: application/json" -d '{"review":"Excellent book"}' | jq .
 
 Output:
 {
