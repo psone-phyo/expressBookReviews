@@ -1,0 +1,7 @@
+Command:
+curl -sS -X POST http://127.0.0.1:5050/register -H "Content-Type: application/json" -d '{"username":"coursera_user","password":"<password>"}' | jq .
+
+Output:
+{
+  "message": "User successfully registered."
+}

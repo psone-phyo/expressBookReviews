@@ -1,0 +1,10 @@
+Command:
+curl -sS -H "Accept: application/vnd.github+json" https://api.github.com/repos/psone-phyo/expressBookReviews | jq "{full_name, fork, parent: .parent.full_name, html_url}"
+
+Output:
+{
+  "full_name": "psone-phyo/expressBookReviews",
+  "fork": true,
+  "parent": "ibm-developer-skills-network/expressBookReviews",
+  "html_url": "https://github.com/psone-phyo/expressBookReviews"
+}

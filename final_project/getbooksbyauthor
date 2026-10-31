@@ -1,0 +1,11 @@
+Command:
+curl -sS http://127.0.0.1:5050/author/Jane%20Austen | jq .
+
+Output:
+{
+  "8": {
+    "author": "Jane Austen",
+    "title": "Pride and Prejudice",
+    "reviews": {}
+  }
+}
